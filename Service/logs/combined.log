@@ -7703,3 +7703,221 @@
     "password": "***"
   }
 }
+[2026-04-15 09:25:42] INFO: Redis connected successfully!
+[2026-04-15 09:25:49] INFO: [0mPOST /api/v1/auth/refresh [32m200[0m 60.219 ms - 262[0m
+[2026-04-15 09:25:49] INFO: POST /api/v1/auth/refresh
+{
+  "status": 200,
+  "duration": "63ms",
+  "ip": "::1"
+}
+[2026-04-15 09:25:49] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [32m200[0m 11.057 ms - 1334[0m
+[2026-04-15 09:25:49] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 200,
+  "duration": "11ms",
+  "ip": "::1"
+}
+[2026-04-15 09:28:33] INFO: [0mGET /api/v1/permission/all [36m304[0m 20.597 ms - -[0m
+[2026-04-15 09:28:33] INFO: GET /api/v1/permission/all
+{
+  "status": 304,
+  "duration": "21ms",
+  "ip": "::1"
+}
+[2026-04-15 09:28:34] INFO: [0mGET /api/v1/permission/all [36m304[0m 10.275 ms - -[0m
+[2026-04-15 09:28:34] INFO: GET /api/v1/permission/all
+{
+  "status": 304,
+  "duration": "12ms",
+  "ip": "::1"
+}
+[2026-04-15 09:28:34] INFO: [0mGET /api/v1/role/all-roles [32m200[0m 13.556 ms - 563[0m
+[2026-04-15 09:28:34] INFO: GET /api/v1/role/all-roles
+{
+  "status": 200,
+  "duration": "14ms",
+  "ip": "::1"
+}
+[2026-04-15 09:28:36] INFO: [0mGET /api/v1/user/all-users [32m200[0m 8.480 ms - 560[0m
+[2026-04-15 09:28:36] INFO: GET /api/v1/user/all-users
+{
+  "status": 200,
+  "duration": "9ms",
+  "ip": "::1"
+}
+[2026-04-15 09:28:37] INFO: [0mGET /api/v1/user/dashboard-summary [32m200[0m 12.525 ms - 645[0m
+[2026-04-15 09:28:37] INFO: GET /api/v1/user/dashboard-summary
+{
+  "status": 200,
+  "duration": "13ms",
+  "ip": "::1"
+}
+[2026-04-15 09:28:38] INFO: [0mGET /api/v1/user/all-users [36m304[0m 5.268 ms - -[0m
+[2026-04-15 09:28:38] INFO: GET /api/v1/user/all-users
+{
+  "status": 304,
+  "duration": "7ms",
+  "ip": "::1"
+}
+[2026-04-15 09:28:40] INFO: [0mGET /api/v1/role/all-roles [36m304[0m 5.476 ms - -[0m
+[2026-04-15 09:28:40] INFO: GET /api/v1/role/all-roles
+{
+  "status": 304,
+  "duration": "6ms",
+  "ip": "::1"
+}
+[2026-04-15 09:28:40] INFO: [0mGET /api/v1/permission/all [36m304[0m 5.642 ms - -[0m
+[2026-04-15 09:28:40] INFO: GET /api/v1/permission/all
+{
+  "status": 304,
+  "duration": "8ms",
+  "ip": "::1"
+}
+[2026-04-15 09:29:23] INFO: [0mGET /api/v1/role/all-roles [36m304[0m 7.645 ms - -[0m
+[2026-04-15 09:29:23] INFO: GET /api/v1/role/all-roles
+{
+  "status": 304,
+  "duration": "8ms",
+  "ip": "::1"
+}
+[2026-04-15 09:29:23] INFO: [0mGET /api/v1/permission/all [36m304[0m 8.354 ms - -[0m
+[2026-04-15 09:29:23] INFO: GET /api/v1/permission/all
+{
+  "status": 304,
+  "duration": "9ms",
+  "ip": "::1"
+}
+[2026-04-15 09:29:27] INFO: [0mGET /api/v1/role/all-roles [36m304[0m 3.057 ms - -[0m
+[2026-04-15 09:29:27] INFO: GET /api/v1/role/all-roles
+{
+  "status": 304,
+  "duration": "4ms",
+  "ip": "::1"
+}
+[2026-04-15 09:29:27] INFO: [0mGET /api/v1/permission/all [36m304[0m 3.933 ms - -[0m
+[2026-04-15 09:29:27] INFO: GET /api/v1/permission/all
+{
+  "status": 304,
+  "duration": "4ms",
+  "ip": "::1"
+}
+[2026-04-15 09:29:32] INFO: [0mGET /api/v1/permission/all [36m304[0m 4.703 ms - -[0m
+[2026-04-15 09:29:32] INFO: GET /api/v1/permission/all
+{
+  "status": 304,
+  "duration": "5ms",
+  "ip": "::1"
+}
+[2026-04-15 09:29:32] INFO: [0mGET /api/v1/role/all-roles [36m304[0m 8.065 ms - -[0m
+[2026-04-15 09:29:32] INFO: GET /api/v1/role/all-roles
+{
+  "status": 304,
+  "duration": "9ms",
+  "ip": "::1"
+}
+[2026-04-15 09:29:48] INFO: [0mGET /api/v1/user/all-users [36m304[0m 8.771 ms - -[0m
+[2026-04-15 09:29:48] INFO: GET /api/v1/user/all-users
+{
+  "status": 304,
+  "duration": "9ms",
+  "ip": "::1"
+}
+[2026-04-15 09:29:51] INFO: [0mGET /api/v1/user/dashboard-summary [36m304[0m 29.941 ms - -[0m
+[2026-04-15 09:29:51] INFO: GET /api/v1/user/dashboard-summary
+{
+  "status": 304,
+  "duration": "30ms",
+  "ip": "::1"
+}
+[2026-04-15 09:29:52] INFO: [0mGET /api/v1/user/all-users [36m304[0m 2.758 ms - -[0m
+[2026-04-15 09:29:52] INFO: GET /api/v1/user/all-users
+{
+  "status": 304,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-15 09:29:58] INFO: [0mGET /api/v1/user/dashboard-summary [36m304[0m 9.180 ms - -[0m
+[2026-04-15 09:29:58] INFO: GET /api/v1/user/dashboard-summary
+{
+  "status": 304,
+  "duration": "10ms",
+  "ip": "::1"
+}
+[2026-04-15 09:30:00] INFO: [0mGET /api/v1/user/all-users [36m304[0m 4.836 ms - -[0m
+[2026-04-15 09:30:00] INFO: GET /api/v1/user/all-users
+{
+  "status": 304,
+  "duration": "5ms",
+  "ip": "::1"
+}
+[2026-04-15 09:40:07] INFO: Redis connected successfully!
+[2026-04-15 09:40:08] INFO: [0mPOST /api/v1/auth/refresh [32m200[0m 56.049 ms - 262[0m
+[2026-04-15 09:40:08] INFO: POST /api/v1/auth/refresh
+{
+  "status": 200,
+  "duration": "60ms",
+  "ip": "::1"
+}
+[2026-04-15 09:40:08] INFO: [0mGET /api/v1/user/dashboard-summary [36m304[0m 27.965 ms - -[0m
+[2026-04-15 09:40:08] INFO: GET /api/v1/user/dashboard-summary
+{
+  "status": 304,
+  "duration": "28ms",
+  "ip": "::1"
+}
+[2026-04-15 09:40:10] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [36m304[0m 7.673 ms - -[0m
+[2026-04-15 09:40:10] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 304,
+  "duration": "10ms",
+  "ip": "::1"
+}
+[2026-04-15 09:41:15] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [36m304[0m 10.303 ms - -[0m
+[2026-04-15 09:41:15] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 304,
+  "duration": "11ms",
+  "ip": "::1"
+}
+[2026-04-15 09:41:38] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [36m304[0m 7.340 ms - -[0m
+[2026-04-15 09:41:38] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 304,
+  "duration": "8ms",
+  "ip": "::1"
+}
+[2026-04-15 09:42:15] INFO: [0mPOST /api/v1/auth/refresh [32m200[0m 29.090 ms - 262[0m
+[2026-04-15 09:42:15] INFO: POST /api/v1/auth/refresh
+{
+  "status": 200,
+  "duration": "30ms",
+  "ip": "::1"
+}
+[2026-04-15 09:42:15] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [36m304[0m 12.666 ms - -[0m
+[2026-04-15 09:42:15] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 304,
+  "duration": "13ms",
+  "ip": "::1"
+}
+[2026-04-15 09:42:39] INFO: [0mPOST /api/v1/chat/send [32m200[0m 863.052 ms - 391[0m
+[2026-04-15 09:42:39] INFO: POST /api/v1/chat/send
+{
+  "status": 200,
+  "duration": "862ms",
+  "ip": "::1",
+  "body": {
+    "message": "about"
+  }
+}
+[2026-04-15 09:42:45] INFO: [0mPOST /api/v1/chat/send [32m200[0m 860.951 ms - 479[0m
+[2026-04-15 09:42:45] INFO: POST /api/v1/chat/send
+{
+  "status": 200,
+  "duration": "861ms",
+  "ip": "::1",
+  "body": {
+    "message": "about"
+  }
+}

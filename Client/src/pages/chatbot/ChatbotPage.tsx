@@ -22,7 +22,6 @@ const ChatbotPage = () => {
   const dispatch = useAppDispatch();
   const { messages, loading, sending, searchResults, isSearching } =
     useAppSelector((state) => state.chat);
-  const [offset, setOffset] = useState(0);
   const [isTyping, setIsTyping] = useState(false);
   const [showSearch, setShowSearch] = useState(false);
   const [currentSearchTerm, setCurrentSearchTerm] = useState("");
@@ -94,7 +93,7 @@ const ChatbotPage = () => {
   };
 
   const handleMessageClick = (message: ChatMessage) => {
-    // Find the message in the DOM and scroll to it
+    // find the message in the DOM and scroll to it
     const messageElement = document.getElementById(`message-${message.id}`);
     if (messageElement && scrollRef.current) {
       messageElement.scrollIntoView({ behavior: "smooth", block: "center" });

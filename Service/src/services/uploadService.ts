@@ -27,7 +27,7 @@ export class UploadService {
     if (record?.profilePicture) {
       const absolutePath = path.resolve(record.profilePicture);
 
-      // Only delete if file actually exists — no crash if missing
+      // Only delete if file actually exists because no crash if missing
       if (fs.existsSync(absolutePath)) {
         fs.unlinkSync(absolutePath);
       }

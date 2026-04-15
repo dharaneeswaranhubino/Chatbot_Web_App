@@ -127,7 +127,7 @@ const RoleManagement = () => {
           onClick={() => setIsCreateModalOpen(true)}
           className="px-4 py-2 bg-violet-600 text-white rounded-lg hover:bg-violet-700 transition"
         >
-          + Create New Role
+          <i className="fa-solid fa-plus"></i> Create New Role
         </button>
       </div>
 

@@ -22,25 +22,6 @@ export class ChatMessageRepository {
       offset,
     });
   }
-
-  // async searchMessages(userId: number, query: string) {
-  //   const cleanQuery = query.trim();
-
-  //   if (cleanQuery.length < 2) {
-  //     return [];
-  //   }
-
-  //   return await ChatMessage.findAll({
-  //     where: {
-  //       userId,
-  //       message: {
-  //         [Op.like]: `%${cleanQuery}%`
-  //       }
-  //     },
-  //     order: [["createdAt", "DESC"]],
-  //     limit: 100
-  //   });
-  // }
   async searchMessages(userId: number, query: string) {
     const cleanQuery = query.trim();
     if (cleanQuery.length < 2) return [];
@@ -56,7 +37,7 @@ export class ChatMessageRepository {
 
     if (matched.length === 0) return [];
 
-    // For each matched user message, fetch the next bot message after it
+    // for each matched user message, fetch the next bot message after it
     const userMatches = matched.filter((m) => m.sender === "user");
 
     const botReplies = await Promise.all(

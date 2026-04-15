@@ -11,7 +11,6 @@ interface HistorySidebarProps {
 
 const HistorySidebar = ({
   isOpen,
-  onClose,
   onToggle,
   onMessageClick,
 }: HistorySidebarProps) => {
@@ -113,7 +112,7 @@ const HistorySidebar = ({
                       >
                         <div className="flex items-start gap-2">
                           <span className="text-lg">
-                            {msg.sender === "user" ? "👤" : "🤖"}
+                            {msg.sender === "user" ? <i className="fa-solid fa-user"></i> : <i className="fa-solid fa-robot"></i>}
                           </span>
                           <div className="flex-1 min-w-0">
                             <p className="text-sm font-medium truncate">
