@@ -7921,3 +7921,18 @@
     "message": "about"
   }
 }
+[2026-04-15 17:52:41] INFO: Redis connected successfully!
+[2026-04-15 17:52:44] INFO: [0mPOST /api/v1/auth/refresh [32m200[0m 94.794 ms - 261[0m
+[2026-04-15 17:52:44] INFO: POST /api/v1/auth/refresh
+{
+  "status": 200,
+  "duration": "99ms",
+  "ip": "::1"
+}
+[2026-04-15 17:52:44] INFO: [0mGET /api/v1/user/dashboard-summary [36m304[0m 53.905 ms - -[0m
+[2026-04-15 17:52:44] INFO: GET /api/v1/user/dashboard-summary
+{
+  "status": 304,
+  "duration": "55ms",
+  "ip": "::1"
+}
