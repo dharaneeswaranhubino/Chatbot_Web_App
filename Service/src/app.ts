@@ -10,6 +10,10 @@ import { errorHandler } from "./middleware/errorHandler.js";
 import { requestLogger } from "./middleware/requestLogger.js";
 import cookieParser from "cookie-parser";
 
+import swaggerUi from "swagger-ui-express";
+import { swaggerSpec } from "./config/swagger.js";
+import "./docs/authSwagger.js";
+
 const app = express();
 app.use(cors(corsOption));
 app.use(cookieParser());
@@ -28,6 +32,8 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(requestLogger);
 app.use("/uploads", express.static("uploads"));
+
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec))
 
 app.use("/api", routes);
 

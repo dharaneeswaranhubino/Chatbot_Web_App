@@ -7936,3 +7936,340 @@
   "duration": "55ms",
   "ip": "::1"
 }
+[2026-04-16 10:25:49] INFO: Redis connected successfully!
+[2026-04-16 10:26:56] INFO: Redis connected successfully!
+[2026-04-16 10:26:59] INFO: [0mGET /api-docs [36m301[0m 3.075 ms - 158[0m
+[2026-04-16 10:26:59] INFO: GET /api-docs
+{
+  "status": 301,
+  "duration": "5ms",
+  "ip": "::1"
+}
+[2026-04-16 10:26:59] INFO: [0mGET /api-docs/ [32m200[0m 1.900 ms - 3106[0m
+[2026-04-16 10:26:59] INFO: GET /api-docs/
+{
+  "status": 200,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-16 10:26:59] INFO: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.273 ms - 2015[0m
+[2026-04-16 10:26:59] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 200,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-16 10:26:59] INFO: [0mGET /api-docs/swagger-ui.css [32m200[0m 9.997 ms - 178890[0m
+[2026-04-16 10:26:59] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 200,
+  "duration": "14ms",
+  "ip": "::1"
+}
+[2026-04-16 10:26:59] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [32m200[0m 8.919 ms - 251800[0m
+[2026-04-16 10:26:59] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 200,
+  "duration": "12ms",
+  "ip": "::1"
+}
+[2026-04-16 10:26:59] INFO: [0mGET /api-docs/swagger-ui-bundle.js [32m200[0m 5.682 ms - 1526890[0m
+[2026-04-16 10:26:59] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 200,
+  "duration": "30ms",
+  "ip": "::1"
+}
+[2026-04-16 10:27:00] INFO: [0mGET /api-docs/favicon-32x32.png [32m200[0m 1.498 ms - 628[0m
+[2026-04-16 10:27:00] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 200,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:10] INFO: Redis connected successfully!
+[2026-04-16 10:28:12] INFO: [0mGET /api-docs/ [36m304[0m 4.609 ms - -[0m
+[2026-04-16 10:28:12] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "9ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:12] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 1.640 ms - -[0m
+[2026-04-16 10:28:12] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:12] INFO: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.258 ms - -[0m
+[2026-04-16 10:28:12] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:12] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 6.390 ms - -[0m
+[2026-04-16 10:28:12] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "7ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:12] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 6.619 ms - -[0m
+[2026-04-16 10:28:12] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "8ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:12] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.616 ms - -[0m
+[2026-04-16 10:28:12] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:14] INFO: [0mGET /api-docs/ [36m304[0m 0.558 ms - -[0m
+[2026-04-16 10:28:14] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:14] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 0.437 ms - -[0m
+[2026-04-16 10:28:14] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:14] INFO: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.141 ms - -[0m
+[2026-04-16 10:28:14] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:14] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 2.903 ms - -[0m
+[2026-04-16 10:28:14] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:14] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 3.211 ms - -[0m
+[2026-04-16 10:28:14] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:14] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.623 ms - -[0m
+[2026-04-16 10:28:14] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "5ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:15] INFO: [0mGET /api-docs/ [36m304[0m 0.685 ms - -[0m
+[2026-04-16 10:28:15] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:15] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 0.404 ms - -[0m
+[2026-04-16 10:28:15] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:15] INFO: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.198 ms - -[0m
+[2026-04-16 10:28:15] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 304,
+  "duration": "0ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:15] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 4.491 ms - -[0m
+[2026-04-16 10:28:15] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "5ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:15] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 3.455 ms - -[0m
+[2026-04-16 10:28:15] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "4ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:15] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.042 ms - -[0m
+[2026-04-16 10:28:15] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:15] INFO: [0mGET /api-docs/ [36m304[0m 0.504 ms - -[0m
+[2026-04-16 10:28:15] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:15] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 0.595 ms - -[0m
+[2026-04-16 10:28:15] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:15] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 1.017 ms - -[0m
+[2026-04-16 10:28:15] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:15] INFO: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.439 ms - -[0m
+[2026-04-16 10:28:15] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:15] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 3.629 ms - -[0m
+[2026-04-16 10:28:15] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "5ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:15] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.456 ms - -[0m
+[2026-04-16 10:28:15] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:17] INFO: [0mGET /api-docs/ [36m304[0m 0.582 ms - -[0m
+[2026-04-16 10:28:17] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:17] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 0.437 ms - -[0m
+[2026-04-16 10:28:17] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:17] INFO: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.229 ms - -[0m
+[2026-04-16 10:28:17] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:17] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 3.299 ms - -[0m
+[2026-04-16 10:28:17] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "4ms",
+  "ip": "::1"
+}
+[2026-04-16 10:28:17] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 4.222 ms - -[0m
+[2026-04-16 10:28:17] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "5ms",
+  "ip": "::1"
+}
+[2026-04-16 10:30:16] INFO: Redis connected successfully!
+[2026-04-16 10:30:30] INFO: [0mGET /api-docs/ [36m304[0m 3.212 ms - -[0m
+[2026-04-16 10:30:31] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "6ms",
+  "ip": "::1"
+}
+[2026-04-16 10:30:31] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 1.503 ms - -[0m
+[2026-04-16 10:30:31] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-16 10:30:31] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 1.577 ms - -[0m
+[2026-04-16 10:30:31] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-16 10:30:31] INFO: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.549 ms - 5408[0m
+[2026-04-16 10:30:31] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 200,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-16 10:30:31] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 3.539 ms - -[0m
+[2026-04-16 10:30:31] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "4ms",
+  "ip": "::1"
+}
+[2026-04-16 10:30:31] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.623 ms - -[0m
+[2026-04-16 10:30:31] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-16 10:30:58] INFO: [0mPOST /api/v1/auth/register [32m201[0m 94.985 ms - 140[0m
+[2026-04-16 10:30:58] INFO: POST /api/v1/auth/register
+{
+  "status": 201,
+  "duration": "95ms",
+  "ip": "::1",
+  "body": {
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "***",
+    "profilePicture": ""
+  }
+}
+[2026-04-16 10:31:22] INFO: [0mPOST /api/v1/auth/login [32m200[0m 121.424 ms - 286[0m
+[2026-04-16 10:31:22] INFO: POST /api/v1/auth/login
+{
+  "status": 200,
+  "duration": "120ms",
+  "ip": "::1",
+  "body": {
+    "email": "john@example.com",
+    "password": "***"
+  }
+}
+[2026-04-16 10:32:05] INFO: [0mPOST /api/v1/auth/refresh [32m200[0m 14.182 ms - 257[0m
+[2026-04-16 10:32:05] INFO: POST /api/v1/auth/refresh
+{
+  "status": 200,
+  "duration": "15ms",
+  "ip": "::1"
+}
+[2026-04-16 10:32:27] INFO: [0mPOST /api/v1/auth/logout [32m200[0m 55.668 ms - 52[0m
+[2026-04-16 10:32:27] INFO: POST /api/v1/auth/logout
+{
+  "status": 200,
+  "duration": "56ms",
+  "ip": "::1"
+}
+[2026-04-16 10:33:12] INFO: Redis connected successfully!
