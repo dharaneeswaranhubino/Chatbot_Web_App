@@ -138,7 +138,7 @@ const ChatbotPage = () => {
       >
         {loading && displayMessages.length === 0 && !initialLoadDone ? (
           <div className="flex justify-center items-center h-32">
-            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-violet-600"></div>
+            <i className="fa-solid fa-circle-notch fa-spin text-violet-600 text-2xl"></i>
           </div>
         ) : displayMessages.length === 0 ? (
           <div className="flex flex-col items-center justify-center h-64 text-center">

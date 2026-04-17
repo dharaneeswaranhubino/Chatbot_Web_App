@@ -11,7 +11,7 @@ const router = Router();
 
 router.use("/v1/auth", authRoutes);
 router.use("/v1/user", userRoutes);
-router.use("/v1/userDashboard",userDashboard)
+router.use("/v1/userDashboard",userDashboard);
 router.use("/v1/role", roleRoutes);
 router.use("/v1/permission", permissionRoutes);
 router.use("/v1/upload", uploadRoutes);

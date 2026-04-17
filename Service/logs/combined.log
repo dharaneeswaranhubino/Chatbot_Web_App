@@ -8273,3 +8273,349 @@
   "ip": "::1"
 }
 [2026-04-16 10:33:12] INFO: Redis connected successfully!
+[2026-04-16 17:08:11] INFO: Redis connected successfully!
+[2026-04-16 17:08:16] INFO: [0mGET /api-docs/ [36m304[0m 29.145 ms - -[0m
+[2026-04-16 17:08:16] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "43ms",
+  "ip": "::1"
+}
+[2026-04-16 17:08:16] INFO: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 1.823 ms - 8550[0m
+[2026-04-16 17:08:16] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 200,
+  "duration": "5ms",
+  "ip": "::1"
+}
+[2026-04-16 17:08:16] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 15.644 ms - -[0m
+[2026-04-16 17:08:16] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "16ms",
+  "ip": "::1"
+}
+[2026-04-16 17:08:16] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 14.136 ms - -[0m
+[2026-04-16 17:08:16] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "15ms",
+  "ip": "::1"
+}
+[2026-04-16 17:08:16] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 13.872 ms - -[0m
+[2026-04-16 17:08:16] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "15ms",
+  "ip": "::1"
+}
+[2026-04-16 17:08:16] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.581 ms - -[0m
+[2026-04-16 17:08:16] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-16 17:08:33] INFO: [0mPOST /api/v1/chat/send [33m401[0m 3.118 ms - 31[0m
+[2026-04-16 17:08:33] INFO: POST /api/v1/chat/send
+{
+  "status": 401,
+  "duration": "3ms",
+  "ip": "::1",
+  "body": {
+    "message": "Hello, how are you?"
+  }
+}
+[2026-04-16 17:08:49] INFO: [0mPOST /api/v1/auth/login [32m200[0m 287.824 ms - 286[0m
+[2026-04-16 17:08:49] INFO: POST /api/v1/auth/login
+{
+  "status": 200,
+  "duration": "289ms",
+  "ip": "::1",
+  "body": {
+    "email": "john@example.com",
+    "password": "***"
+  }
+}
+[2026-04-16 17:09:11] INFO: [0mPOST /api/v1/chat/send [32m200[0m 918.402 ms - 280[0m
+[2026-04-16 17:09:11] INFO: POST /api/v1/chat/send
+{
+  "status": 200,
+  "duration": "921ms",
+  "ip": "::1",
+  "body": {
+    "message": "Hello, how are you?"
+  }
+}
+[2026-04-16 17:09:34] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [32m200[0m 21.394 ms - 292[0m
+[2026-04-16 17:09:34] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 200,
+  "duration": "22ms",
+  "ip": "::1"
+}
+[2026-04-16 17:10:11] INFO: [0mGET /api/v1/chat/search?q=hello [32m200[0m 34.253 ms - 253[0m
+[2026-04-16 17:10:11] INFO: GET /api/v1/chat/search?q=hello
+{
+  "status": 200,
+  "duration": "37ms",
+  "ip": "::1"
+}
+[2026-04-16 17:11:05] INFO: [0mGET /api-docs/ [36m304[0m 3.543 ms - -[0m
+[2026-04-16 17:11:05] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "6ms",
+  "ip": "::1"
+}
+[2026-04-16 17:11:05] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 1.080 ms - -[0m
+[2026-04-16 17:11:05] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-16 17:11:05] INFO: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.692 ms - -[0m
+[2026-04-16 17:11:05] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-16 17:11:05] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 6.578 ms - -[0m
+[2026-04-16 17:11:05] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "8ms",
+  "ip": "::1"
+}
+[2026-04-16 17:11:05] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 6.007 ms - -[0m
+[2026-04-16 17:11:05] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "6ms",
+  "ip": "::1"
+}
+[2026-04-16 17:11:05] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.089 ms - -[0m
+[2026-04-16 17:11:05] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-16 17:11:55] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [36m304[0m 16.793 ms - -[0m
+[2026-04-16 17:11:55] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 304,
+  "duration": "18ms",
+  "ip": "::1"
+}
+[2026-04-16 17:12:35] INFO: Redis connected successfully!
+[2026-04-16 17:12:35] INFO: [0mGET /api-docs/ [36m304[0m 8.647 ms - -[0m
+[2026-04-16 17:12:35] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "14ms",
+  "ip": "::1"
+}
+[2026-04-16 17:12:35] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 1.519 ms - -[0m
+[2026-04-16 17:12:35] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-16 17:12:35] INFO: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.961 ms - 8536[0m
+[2026-04-16 17:12:35] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 200,
+  "duration": "4ms",
+  "ip": "::ffff:127.0.0.1"
+}
+[2026-04-16 17:12:35] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 8.515 ms - -[0m
+[2026-04-16 17:12:35] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "10ms",
+  "ip": "::1"
+}
+[2026-04-16 17:12:35] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 8.332 ms - -[0m
+[2026-04-16 17:12:35] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "9ms",
+  "ip": "::ffff:127.0.0.1"
+}
+[2026-04-16 17:12:35] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.678 ms - -[0m
+[2026-04-16 17:12:35] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::ffff:127.0.0.1"
+}
+[2026-04-16 17:12:42] INFO: [0mPOST /api/v1/chat/send [33m401[0m 4.174 ms - 31[0m
+[2026-04-16 17:12:42] INFO: POST /api/v1/chat/send
+{
+  "status": 401,
+  "duration": "2ms",
+  "ip": "::1",
+  "body": {
+    "message": "joke?"
+  }
+}
+[2026-04-16 17:12:58] INFO: [0mPOST /api/v1/chat/send [32m200[0m 890.576 ms - 287[0m
+[2026-04-16 17:12:58] INFO: POST /api/v1/chat/send
+{
+  "status": 200,
+  "duration": "893ms",
+  "ip": "::1",
+  "body": {
+    "message": "joke?"
+  }
+}
+[2026-04-16 17:13:42] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [32m200[0m 31.672 ms - 527[0m
+[2026-04-16 17:13:42] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 200,
+  "duration": "33ms",
+  "ip": "::1"
+}
+[2026-04-16 17:14:00] INFO: [0mGET /api/v1/chat/search?q=hello [36m304[0m 20.889 ms - -[0m
+[2026-04-16 17:14:00] INFO: GET /api/v1/chat/search?q=hello
+{
+  "status": 304,
+  "duration": "22ms",
+  "ip": "::1"
+}
+[2026-04-16 17:14:14] INFO: Redis connected successfully!
+[2026-04-16 17:14:25] INFO: Redis connected successfully!
+[2026-04-16 17:14:26] INFO: [0mGET /api-docs/ [36m304[0m 6.873 ms - -[0m
+[2026-04-16 17:14:26] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "11ms",
+  "ip": "::1"
+}
+[2026-04-16 17:14:26] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 2.296 ms - -[0m
+[2026-04-16 17:14:26] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "4ms",
+  "ip": "::1"
+}
+[2026-04-16 17:14:26] INFO: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 1.038 ms - 8535[0m
+[2026-04-16 17:14:26] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 200,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-16 17:14:26] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 8.979 ms - -[0m
+[2026-04-16 17:14:26] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "10ms",
+  "ip": "::1"
+}
+[2026-04-16 17:14:26] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 7.081 ms - -[0m
+[2026-04-16 17:14:26] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "7ms",
+  "ip": "::1"
+}
+[2026-04-16 17:14:27] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 2.983 ms - -[0m
+[2026-04-16 17:14:27] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "4ms",
+  "ip": "::1"
+}
+[2026-04-16 17:14:31] INFO: [0mGET /api/v1/chat/search?q=joke [33m401[0m 1.856 ms - 31[0m
+[2026-04-16 17:14:31] INFO: GET /api/v1/chat/search?q=joke
+{
+  "status": 401,
+  "duration": "4ms",
+  "ip": "::1"
+}
+[2026-04-16 17:14:45] INFO: [0mGET /api/v1/chat/search?q=joke [32m200[0m 61.091 ms - 119[0m
+[2026-04-16 17:14:45] INFO: GET /api/v1/chat/search?q=joke
+{
+  "status": 200,
+  "duration": "63ms",
+  "ip": "::1"
+}
+[2026-04-16 17:15:51] INFO: [0mPOST /api/v1/chat/send [32m200[0m 899.407 ms - 287[0m
+[2026-04-16 17:15:51] INFO: POST /api/v1/chat/send
+{
+  "status": 200,
+  "duration": "899ms",
+  "ip": "::1",
+  "body": {
+    "message": "joke?"
+  }
+}
+[2026-04-16 17:16:00] INFO: [0mPOST /api/v1/chat/send [32m200[0m 896.246 ms - 287[0m
+[2026-04-16 17:16:00] INFO: POST /api/v1/chat/send
+{
+  "status": 200,
+  "duration": "897ms",
+  "ip": "::1",
+  "body": {
+    "message": "joke?"
+  }
+}
+[2026-04-16 17:16:31] INFO: Redis connected successfully!
+[2026-04-17 09:31:01] INFO: Redis connected successfully!
+[2026-04-17 09:33:04] INFO: [0mPOST /api/v1/auth/refresh [32m200[0m 62.573 ms - 257[0m
+[2026-04-17 09:33:04] INFO: POST /api/v1/auth/refresh
+{
+  "status": 200,
+  "duration": "64ms",
+  "ip": "::1"
+}
+[2026-04-17 09:33:04] INFO: [0mGET /api/v1/userDashboard/user_dashboard [32m200[0m 12.776 ms - 900[0m
+[2026-04-17 09:33:04] INFO: GET /api/v1/userDashboard/user_dashboard
+{
+  "status": 200,
+  "duration": "13ms",
+  "ip": "::1"
+}
+[2026-04-17 09:33:16] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [32m200[0m 20.589 ms - 997[0m
+[2026-04-17 09:33:16] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 200,
+  "duration": "24ms",
+  "ip": "::1"
+}
+[2026-04-17 09:33:24] INFO: [0mGET /api/v1/userDashboard/user_dashboard [36m304[0m 5.548 ms - -[0m
+[2026-04-17 09:33:24] INFO: GET /api/v1/userDashboard/user_dashboard
+{
+  "status": 304,
+  "duration": "6ms",
+  "ip": "::1"
+}
+[2026-04-17 09:33:27] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [36m304[0m 6.757 ms - -[0m
+[2026-04-17 09:33:27] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 304,
+  "duration": "8ms",
+  "ip": "::1"
+}
+[2026-04-17 09:33:31] INFO: [0mPOST /api/v1/chat/send [32m200[0m 905.960 ms - 273[0m
+[2026-04-17 09:33:31] INFO: POST /api/v1/chat/send
+{
+  "status": 200,
+  "duration": "907ms",
+  "ip": "::1",
+  "body": {
+    "message": "hello"
+  }
+}
+[2026-04-17 09:33:33] INFO: [0mGET /api/v1/userDashboard/user_dashboard [32m200[0m 6.967 ms - 888[0m
+[2026-04-17 09:33:33] INFO: GET /api/v1/userDashboard/user_dashboard
+{
+  "status": 200,
+  "duration": "8ms",
+  "ip": "::1"
+}
