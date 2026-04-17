@@ -8619,3 +8619,958 @@
   "duration": "8ms",
   "ip": "::1"
 }
+[2026-04-17 09:44:48] INFO: Redis connected successfully!
+[2026-04-17 09:52:43] INFO: Redis connected successfully!
+[2026-04-17 09:55:51] INFO: [0mPOST /api/v1/auth/refresh [32m200[0m 65.421 ms - 257[0m
+[2026-04-17 09:55:51] INFO: POST /api/v1/auth/refresh
+{
+  "status": 200,
+  "duration": "66ms",
+  "ip": "::1"
+}
+[2026-04-17 09:55:51] INFO: [0mGET /api/v1/userDashboard/user_dashboard [36m304[0m 26.096 ms - -[0m
+[2026-04-17 09:55:51] INFO: GET /api/v1/userDashboard/user_dashboard
+{
+  "status": 304,
+  "duration": "28ms",
+  "ip": "::1"
+}
+[2026-04-17 09:55:55] INFO: [0mPOST /api/v1/auth/logout [32m200[0m 45.654 ms - 52[0m
+[2026-04-17 09:55:55] INFO: POST /api/v1/auth/logout
+{
+  "status": 200,
+  "duration": "47ms",
+  "ip": "::1"
+}
+[2026-04-17 09:56:39] INFO: [0mPOST /api/v1/auth/login [32m200[0m 110.077 ms - 290[0m
+[2026-04-17 09:56:39] INFO: POST /api/v1/auth/login
+{
+  "status": 200,
+  "duration": "109ms",
+  "ip": "::1",
+  "body": {
+    "email": "admin@chatbot.ai",
+    "password": "***"
+  }
+}
+[2026-04-17 09:56:39] INFO: [0mGET /api/v1/user/dashboard-summary [32m200[0m 53.190 ms - 640[0m
+[2026-04-17 09:56:39] INFO: GET /api/v1/user/dashboard-summary
+{
+  "status": 200,
+  "duration": "55ms",
+  "ip": "::1"
+}
+[2026-04-17 09:57:00] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [32m200[0m 13.950 ms - 2531[0m
+[2026-04-17 09:57:00] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 200,
+  "duration": "15ms",
+  "ip": "::1"
+}
+[2026-04-17 10:03:28] INFO: [0mGET /api/v1/user/dashboard-summary [36m304[0m 45.749 ms - -[0m
+[2026-04-17 10:03:28] INFO: GET /api/v1/user/dashboard-summary
+{
+  "status": 304,
+  "duration": "47ms",
+  "ip": "::1"
+}
+[2026-04-17 10:03:31] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [36m304[0m 3.547 ms - -[0m
+[2026-04-17 10:03:31] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 304,
+  "duration": "4ms",
+  "ip": "::1"
+}
+[2026-04-17 10:11:20] INFO: [0mPOST /api/v1/chat/send [32m200[0m 830.132 ms - 369[0m
+[2026-04-17 10:11:20] INFO: POST /api/v1/chat/send
+{
+  "status": 200,
+  "duration": "831ms",
+  "ip": "::1",
+  "body": {
+    "message": "about"
+  }
+}
+[2026-04-17 10:11:26] INFO: [0mPOST /api/v1/chat/send [32m200[0m 891.293 ms - 391[0m
+[2026-04-17 10:11:26] INFO: POST /api/v1/chat/send
+{
+  "status": 200,
+  "duration": "891ms",
+  "ip": "::1",
+  "body": {
+    "message": "about"
+  }
+}
+[2026-04-17 10:11:32] INFO: [0mPOST /api/v1/chat/send [32m200[0m 897.298 ms - 479[0m
+[2026-04-17 10:11:32] INFO: POST /api/v1/chat/send
+{
+  "status": 200,
+  "duration": "898ms",
+  "ip": "::1",
+  "body": {
+    "message": "about"
+  }
+}
+[2026-04-17 10:11:57] INFO: [0mPOST /api/v1/auth/refresh [32m200[0m 80.349 ms - 261[0m
+[2026-04-17 10:11:57] INFO: POST /api/v1/auth/refresh
+{
+  "status": 200,
+  "duration": "80ms",
+  "ip": "::1"
+}
+[2026-04-17 10:11:57] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [32m200[0m 13.905 ms - 3614[0m
+[2026-04-17 10:11:57] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 200,
+  "duration": "14ms",
+  "ip": "::1"
+}
+[2026-04-17 10:12:19] INFO: [0mPOST /api/v1/auth/refresh [32m200[0m 12.710 ms - 261[0m
+[2026-04-17 10:12:19] INFO: POST /api/v1/auth/refresh
+{
+  "status": 200,
+  "duration": "13ms",
+  "ip": "::1"
+}
+[2026-04-17 10:12:19] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [36m304[0m 8.411 ms - -[0m
+[2026-04-17 10:12:19] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 304,
+  "duration": "8ms",
+  "ip": "::1"
+}
+[2026-04-17 10:36:48] INFO: [0mPOST /api/v1/auth/refresh [32m200[0m 19.284 ms - 261[0m
+[2026-04-17 10:36:48] INFO: POST /api/v1/auth/refresh
+{
+  "status": 200,
+  "duration": "22ms",
+  "ip": "::1"
+}
+[2026-04-17 10:36:48] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [36m304[0m 16.122 ms - -[0m
+[2026-04-17 10:36:48] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 304,
+  "duration": "16ms",
+  "ip": "::1"
+}
+[2026-04-17 10:37:15] INFO: [0mPOST /api/v1/auth/refresh [32m200[0m 13.889 ms - 261[0m
+[2026-04-17 10:37:15] INFO: POST /api/v1/auth/refresh
+{
+  "status": 200,
+  "duration": "14ms",
+  "ip": "::1"
+}
+[2026-04-17 10:37:15] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [36m304[0m 16.446 ms - -[0m
+[2026-04-17 10:37:15] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 304,
+  "duration": "17ms",
+  "ip": "::1"
+}
+[2026-04-17 11:01:02] INFO: [0mPOST /api/v1/auth/refresh [32m200[0m 14.210 ms - 261[0m
+[2026-04-17 11:01:02] INFO: POST /api/v1/auth/refresh
+{
+  "status": 200,
+  "duration": "15ms",
+  "ip": "::1"
+}
+[2026-04-17 11:01:02] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [36m304[0m 12.395 ms - -[0m
+[2026-04-17 11:01:02] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 304,
+  "duration": "13ms",
+  "ip": "::1"
+}
+[2026-04-17 11:02:46] INFO: [0mPOST /api/v1/chat/send [32m200[0m 858.215 ms - 292[0m
+[2026-04-17 11:02:46] INFO: POST /api/v1/chat/send
+{
+  "status": 200,
+  "duration": "858ms",
+  "ip": "::1",
+  "body": {
+    "message": "hi"
+  }
+}
+[2026-04-17 11:56:23] INFO: [0mPOST /api/v1/chat/send [33m401[0m 7.625 ms - 27[0m
+[2026-04-17 11:56:23] INFO: POST /api/v1/chat/send
+{
+  "status": 401,
+  "duration": "9ms",
+  "ip": "::1",
+  "body": {
+    "message": "joke"
+  }
+}
+[2026-04-17 11:56:24] INFO: [0mPOST /api/v1/auth/refresh [32m200[0m 93.301 ms - 261[0m
+[2026-04-17 11:56:24] INFO: POST /api/v1/auth/refresh
+{
+  "status": 200,
+  "duration": "96ms",
+  "ip": "::1"
+}
+[2026-04-17 11:56:24] INFO: [0mPOST /api/v1/chat/send [32m200[0m 867.986 ms - 298[0m
+[2026-04-17 11:56:24] INFO: POST /api/v1/chat/send
+{
+  "status": 200,
+  "duration": "869ms",
+  "ip": "::1",
+  "body": {
+    "message": "joke"
+  }
+}
+[2026-04-17 12:42:07] INFO: Redis connected successfully!
+[2026-04-17 12:42:07] INFO: Redis is ready to use
+[2026-04-17 12:56:39] INFO: Redis connected successfully!
+[2026-04-17 12:56:39] INFO: Redis is ready to use
+[2026-04-17 12:57:08] INFO: Redis connected successfully!
+[2026-04-17 12:57:08] INFO: Redis is ready to use
+[2026-04-17 13:58:28] INFO: [0mPOST /api/v1/auth/refresh [32m200[0m 65.947 ms - 261[0m
+[2026-04-17 13:58:28] INFO: POST /api/v1/auth/refresh
+{
+  "status": 200,
+  "duration": "69ms",
+  "ip": "::1"
+}
+[2026-04-17 13:58:28] INFO: [0mGET /api/v1/chat/messages?limit=50&offset=0 [32m200[0m 27.719 ms - 4100[0m
+[2026-04-17 13:58:28] INFO: GET /api/v1/chat/messages?limit=50&offset=0
+{
+  "status": 200,
+  "duration": "29ms",
+  "ip": "::1"
+}
+[2026-04-17 15:27:35] INFO: Redis connected successfully!
+[2026-04-17 15:27:35] INFO: Redis is ready to use
+[2026-04-17 15:27:52] INFO: [0mPOST /api/v1/auth/refresh [32m200[0m 31.486 ms - 261[0m
+[2026-04-17 15:27:52] INFO: POST /api/v1/auth/refresh
+{
+  "status": 200,
+  "duration": "33ms",
+  "ip": "::1"
+}
+[2026-04-17 15:27:52] INFO: [0mGET /api/v1/user/dashboard-summary [36m304[0m 29.197 ms - -[0m
+[2026-04-17 15:27:52] INFO: GET /api/v1/user/dashboard-summary
+{
+  "status": 304,
+  "duration": "30ms",
+  "ip": "::1"
+}
+[2026-04-17 15:28:39] INFO: [0mPOST /api/v1/auth/refresh [32m200[0m 13.930 ms - 261[0m
+[2026-04-17 15:28:39] INFO: POST /api/v1/auth/refresh
+{
+  "status": 200,
+  "duration": "15ms",
+  "ip": "::1"
+}
+[2026-04-17 15:28:39] INFO: [0mGET /api/v1/user/dashboard-summary [36m304[0m 14.219 ms - -[0m
+[2026-04-17 15:28:39] INFO: GET /api/v1/user/dashboard-summary
+{
+  "status": 304,
+  "duration": "15ms",
+  "ip": "::1"
+}
+[2026-04-17 15:28:44] INFO: [0mPOST /api/v1/auth/refresh [32m200[0m 13.056 ms - 261[0m
+[2026-04-17 15:28:44] INFO: POST /api/v1/auth/refresh
+{
+  "status": 200,
+  "duration": "14ms",
+  "ip": "::1"
+}
+[2026-04-17 15:29:30] INFO: [0mGET /api-docs/ [36m304[0m 1.957 ms - -[0m
+[2026-04-17 15:29:30] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-17 15:29:30] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 2.112 ms - -[0m
+[2026-04-17 15:29:30] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-17 15:29:30] INFO: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.510 ms - 12752[0m
+[2026-04-17 15:29:30] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 200,
+  "duration": "10ms",
+  "ip": "::1"
+}
+[2026-04-17 15:29:30] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 13.875 ms - -[0m
+[2026-04-17 15:29:30] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "17ms",
+  "ip": "::1"
+}
+[2026-04-17 15:29:30] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 17.335 ms - -[0m
+[2026-04-17 15:29:30] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "18ms",
+  "ip": "::1"
+}
+[2026-04-17 15:30:04] INFO: [0mGET /api/user_dashboard [33m404[0m 1.535 ms - 157[0m
+[2026-04-17 15:30:04] INFO: GET /api/user_dashboard
+{
+  "status": 404,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-17 15:30:26] ERROR: POST /api/v1/auth/register - User already exists
+[2026-04-17 15:30:26] INFO: [0mPOST /api/v1/auth/register [31m500[0m 16.955 ms - 49[0m
+[2026-04-17 15:30:26] INFO: POST /api/v1/auth/register
+{
+  "status": 500,
+  "duration": "17ms",
+  "ip": "::1",
+  "body": {
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "***",
+    "profilePicture": ""
+  }
+}
+[2026-04-17 15:30:38] INFO: Redis connected successfully!
+[2026-04-17 15:30:38] INFO: Redis is ready to use
+[2026-04-17 15:31:25] INFO: [0mPOST /api/v1/chat/send [33m401[0m 3.960 ms - 31[0m
+[2026-04-17 15:31:25] INFO: POST /api/v1/chat/send
+{
+  "status": 401,
+  "duration": "5ms",
+  "ip": "::1",
+  "body": {
+    "message": "joke?"
+  }
+}
+[2026-04-17 15:31:30] INFO: [0mGET /api-docs/ [36m304[0m 3.939 ms - -[0m
+[2026-04-17 15:31:30] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "7ms",
+  "ip": "::1"
+}
+[2026-04-17 15:31:30] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 1.970 ms - -[0m
+[2026-04-17 15:31:30] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-17 15:31:30] INFO: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.619 ms - -[0m
+[2026-04-17 15:31:30] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-17 15:31:30] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 8.063 ms - -[0m
+[2026-04-17 15:31:30] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "9ms",
+  "ip": "::1"
+}
+[2026-04-17 15:31:30] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 7.691 ms - -[0m
+[2026-04-17 15:31:30] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "10ms",
+  "ip": "::1"
+}
+[2026-04-17 15:31:30] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.690 ms - -[0m
+[2026-04-17 15:31:30] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-17 15:32:02] INFO: [0mPOST /api/v1/auth/login [32m200[0m 137.833 ms - 286[0m
+[2026-04-17 15:32:02] INFO: POST /api/v1/auth/login
+{
+  "status": 200,
+  "duration": "138ms",
+  "ip": "::1",
+  "body": {
+    "email": "john@example.com",
+    "password": "***"
+  }
+}
+[2026-04-17 15:32:26] INFO: [0mGET /api/user_dashboard [33m404[0m 1.243 ms - 157[0m
+[2026-04-17 15:32:26] INFO: GET /api/user_dashboard
+{
+  "status": 404,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-17 15:36:11] INFO: Redis connected successfully!
+[2026-04-17 15:36:11] INFO: Redis is ready to use
+[2026-04-17 15:36:23] INFO: Redis connected successfully!
+[2026-04-17 15:36:23] INFO: Redis is ready to use
+[2026-04-17 15:36:28] INFO: [0mGET /api-docs/ [36m304[0m 5.067 ms - -[0m
+[2026-04-17 15:36:28] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "8ms",
+  "ip": "::1"
+}
+[2026-04-17 15:36:28] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 5.165 ms - -[0m
+[2026-04-17 15:36:28] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "6ms",
+  "ip": "::1"
+}
+[2026-04-17 15:36:28] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 4.724 ms - -[0m
+[2026-04-17 15:36:28] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "6ms",
+  "ip": "::1"
+}
+[2026-04-17 15:36:28] INFO: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.255 ms - -[0m
+[2026-04-17 15:36:28] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-17 15:36:28] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 7.155 ms - -[0m
+[2026-04-17 15:36:28] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "9ms",
+  "ip": "::1"
+}
+[2026-04-17 15:36:29] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.475 ms - -[0m
+[2026-04-17 15:36:29] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "4ms",
+  "ip": "::1"
+}
+[2026-04-17 15:36:45] INFO: [0mGET /api/user_dashboard [33m404[0m 2.210 ms - 157[0m
+[2026-04-17 15:36:45] INFO: GET /api/user_dashboard
+{
+  "status": 404,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-17 15:37:09] INFO: Redis connected successfully!
+[2026-04-17 15:37:09] INFO: Redis is ready to use
+[2026-04-17 15:37:26] INFO: Redis connected successfully!
+[2026-04-17 15:37:26] INFO: Redis is ready to use
+[2026-04-17 15:37:32] INFO: [0mGET /api-docs/ [36m304[0m 4.581 ms - -[0m
+[2026-04-17 15:37:32] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "7ms",
+  "ip": "::1"
+}
+[2026-04-17 15:37:32] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 1.724 ms - -[0m
+[2026-04-17 15:37:32] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-17 15:37:32] INFO: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.556 ms - 12725[0m
+[2026-04-17 15:37:32] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 200,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-17 15:37:32] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 1.470 ms - -[0m
+[2026-04-17 15:37:32] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-17 15:37:32] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 2.548 ms - -[0m
+[2026-04-17 15:37:32] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-17 15:37:32] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 2.178 ms - -[0m
+[2026-04-17 15:37:32] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "8ms",
+  "ip": "::1"
+}
+[2026-04-17 15:37:47] INFO: [0mGET /api/v1/user_dashboard [33m404[0m 1.225 ms - 160[0m
+[2026-04-17 15:37:47] INFO: GET /api/v1/user_dashboard
+{
+  "status": 404,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-17 15:39:22] INFO: Redis connected successfully!
+[2026-04-17 15:39:22] INFO: Redis is ready to use
+[2026-04-17 15:39:26] INFO: [0mGET /api-docs/ [36m304[0m 2.987 ms - -[0m
+[2026-04-17 15:39:26] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "6ms",
+  "ip": "::1"
+}
+[2026-04-17 15:39:26] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 2.934 ms - -[0m
+[2026-04-17 15:39:26] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "4ms",
+  "ip": "::1"
+}
+[2026-04-17 15:39:26] INFO: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.599 ms - 12724[0m
+[2026-04-17 15:39:26] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 200,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-17 15:39:26] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 3.174 ms - -[0m
+[2026-04-17 15:39:26] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "4ms",
+  "ip": "::1"
+}
+[2026-04-17 15:39:26] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 2.780 ms - -[0m
+[2026-04-17 15:39:26] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-17 15:39:26] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.372 ms - -[0m
+[2026-04-17 15:39:26] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-17 15:39:32] INFO: [0mGET /api/v1/userDashboard [33m404[0m 1.341 ms - 159[0m
+[2026-04-17 15:39:32] INFO: GET /api/v1/userDashboard
+{
+  "status": 404,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-17 15:40:52] INFO: Redis connected successfully!
+[2026-04-17 15:40:52] INFO: Redis is ready to use
+[2026-04-17 15:40:53] INFO: [0mGET /api-docs/ [36m304[0m 3.711 ms - -[0m
+[2026-04-17 15:40:53] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "6ms",
+  "ip": "::1"
+}
+[2026-04-17 15:40:53] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 1.636 ms - -[0m
+[2026-04-17 15:40:53] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-17 15:40:53] INFO: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.688 ms - 12739[0m
+[2026-04-17 15:40:53] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 200,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-17 15:40:53] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 7.373 ms - -[0m
+[2026-04-17 15:40:53] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "8ms",
+  "ip": "::1"
+}
+[2026-04-17 15:40:53] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 7.266 ms - -[0m
+[2026-04-17 15:40:53] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "8ms",
+  "ip": "::1"
+}
+[2026-04-17 15:40:53] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.698 ms - -[0m
+[2026-04-17 15:40:53] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-17 15:40:54] INFO: [0mGET /api-docs/ [36m304[0m 0.976 ms - -[0m
+[2026-04-17 15:40:54] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-17 15:40:54] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 0.520 ms - -[0m
+[2026-04-17 15:40:54] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-17 15:40:54] INFO: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.749 ms - -[0m
+[2026-04-17 15:40:54] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-17 15:40:54] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 6.473 ms - -[0m
+[2026-04-17 15:40:54] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "7ms",
+  "ip": "::1"
+}
+[2026-04-17 15:40:54] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 6.677 ms - -[0m
+[2026-04-17 15:40:54] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "7ms",
+  "ip": "::1"
+}
+[2026-04-17 15:40:54] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.989 ms - -[0m
+[2026-04-17 15:40:54] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-17 15:41:01] INFO: [0mGET /api/v1/userDashboard/user_dashboard [33m401[0m 0.942 ms - 31[0m
+[2026-04-17 15:41:01] INFO: GET /api/v1/userDashboard/user_dashboard
+{
+  "status": 401,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-17 15:41:11] INFO: [0mPOST /api/v1/auth/login [32m200[0m 94.739 ms - 286[0m
+[2026-04-17 15:41:11] INFO: POST /api/v1/auth/login
+{
+  "status": 200,
+  "duration": "93ms",
+  "ip": "::1",
+  "body": {
+    "email": "john@example.com",
+    "password": "***"
+  }
+}
+[2026-04-17 15:41:49] INFO: [0mGET /api/v1/userDashboard/user_dashboard [36m304[0m 21.225 ms - -[0m
+[2026-04-17 15:41:49] INFO: GET /api/v1/userDashboard/user_dashboard
+{
+  "status": 304,
+  "duration": "22ms",
+  "ip": "::1"
+}
+[2026-04-17 16:37:45] INFO: Redis connected successfully!
+[2026-04-17 16:37:45] INFO: Redis is ready to use
+[2026-04-17 16:37:49] INFO: Redis connected successfully!
+[2026-04-17 16:37:49] INFO: Redis is ready to use
+[2026-04-17 16:37:49] INFO: [0mGET /api-docs/ [36m304[0m 5.872 ms - -[0m
+[2026-04-17 16:37:49] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "8ms",
+  "ip": "::1"
+}
+[2026-04-17 16:37:49] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 1.384 ms - -[0m
+[2026-04-17 16:37:49] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-17 16:37:49] INFO: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.891 ms - 22499[0m
+[2026-04-17 16:37:49] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 200,
+  "duration": "4ms",
+  "ip": "::1"
+}
+[2026-04-17 16:37:49] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 2.114 ms - -[0m
+[2026-04-17 16:37:49] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "3ms",
+  "ip": "::1"
+}
+[2026-04-17 16:37:49] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 4.666 ms - -[0m
+[2026-04-17 16:37:49] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "5ms",
+  "ip": "::1"
+}
+[2026-04-17 16:37:50] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.440 ms - -[0m
+[2026-04-17 16:37:50] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "16ms",
+  "ip": "::1"
+}
+[2026-04-17 16:41:47] INFO: Redis connected successfully!
+[2026-04-17 16:41:47] INFO: Redis is ready to use
+[2026-04-17 16:41:52] INFO: Redis connected successfully!
+[2026-04-17 16:41:52] INFO: Redis is ready to use
+[2026-04-17 16:41:52] INFO: [0mGET /api-docs/ [36m304[0m 5.522 ms - -[0m
+[2026-04-17 16:41:52] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "10ms",
+  "ip": "::1"
+}
+[2026-04-17 16:41:52] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 2.139 ms - -[0m
+[2026-04-17 16:41:52] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "4ms",
+  "ip": "::1"
+}
+[2026-04-17 16:41:52] INFO: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.935 ms - 26754[0m
+[2026-04-17 16:41:52] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 200,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-17 16:41:52] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 9.224 ms - -[0m
+[2026-04-17 16:41:52] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "11ms",
+  "ip": "::1"
+}
+[2026-04-17 16:41:52] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 9.872 ms - -[0m
+[2026-04-17 16:41:52] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "11ms",
+  "ip": "::1"
+}
+[2026-04-17 16:41:53] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 2.856 ms - -[0m
+[2026-04-17 16:41:53] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "5ms",
+  "ip": "::1"
+}
+[2026-04-17 16:43:48] INFO: Redis connected successfully!
+[2026-04-17 16:43:48] INFO: Redis is ready to use
+[2026-04-17 16:43:53] INFO: Redis connected successfully!
+[2026-04-17 16:43:53] INFO: Redis is ready to use
+[2026-04-17 16:43:55] INFO: [0mGET /api-docs/ [36m304[0m 8.866 ms - -[0m
+[2026-04-17 16:43:55] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "14ms",
+  "ip": "::1"
+}
+[2026-04-17 16:43:55] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 6.534 ms - -[0m
+[2026-04-17 16:43:55] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "7ms",
+  "ip": "::1"
+}
+[2026-04-17 16:43:55] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 6.215 ms - -[0m
+[2026-04-17 16:43:55] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "7ms",
+  "ip": "::1"
+}
+[2026-04-17 16:43:55] INFO: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 1.244 ms - 30035[0m
+[2026-04-17 16:43:55] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 200,
+  "duration": "5ms",
+  "ip": "::1"
+}
+[2026-04-17 16:43:55] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 14.517 ms - -[0m
+[2026-04-17 16:43:55] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "17ms",
+  "ip": "::1"
+}
+[2026-04-17 16:43:55] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.299 ms - -[0m
+[2026-04-17 16:43:55] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-17 16:44:09] INFO: [0mPOST /profile-picture [33m404[0m 14.940 ms - 155[0m
+[2026-04-17 16:44:09] INFO: POST /profile-picture
+{
+  "status": 404,
+  "duration": "49ms",
+  "ip": "::1"
+}
+[2026-04-17 16:47:13] INFO: Redis connected successfully!
+[2026-04-17 16:47:13] INFO: Redis is ready to use
+[2026-04-17 16:49:04] INFO: Redis connected successfully!
+[2026-04-17 16:49:04] INFO: Redis is ready to use
+[2026-04-17 16:49:37] INFO: Redis connected successfully!
+[2026-04-17 16:49:37] INFO: Redis is ready to use
+[2026-04-17 16:49:46] INFO: Redis connected successfully!
+[2026-04-17 16:49:46] INFO: Redis is ready to use
+[2026-04-17 16:49:56] INFO: Redis connected successfully!
+[2026-04-17 16:49:56] INFO: Redis is ready to use
+[2026-04-17 16:50:04] INFO: Redis connected successfully!
+[2026-04-17 16:50:04] INFO: Redis is ready to use
+[2026-04-17 16:54:28] INFO: Redis connected successfully!
+[2026-04-17 16:54:28] INFO: Redis is ready to use
+[2026-04-17 16:54:33] INFO: Redis connected successfully!
+[2026-04-17 16:54:33] INFO: Redis is ready to use
+[2026-04-17 16:56:04] INFO: Redis connected successfully!
+[2026-04-17 16:56:04] INFO: Redis is ready to use
+[2026-04-17 16:56:10] INFO: [0mGET /api-docs/ [36m304[0m 9.580 ms - -[0m
+[2026-04-17 16:56:10] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "14ms",
+  "ip": "::1"
+}
+[2026-04-17 16:56:10] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 3.768 ms - -[0m
+[2026-04-17 16:56:10] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "5ms",
+  "ip": "::1"
+}
+[2026-04-17 16:56:10] INFO: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 1.698 ms - 40778[0m
+[2026-04-17 16:56:10] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 200,
+  "duration": "4ms",
+  "ip": "::1"
+}
+[2026-04-17 16:56:10] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 12.676 ms - -[0m
+[2026-04-17 16:56:10] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "15ms",
+  "ip": "::1"
+}
+[2026-04-17 16:56:10] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 6.602 ms - -[0m
+[2026-04-17 16:56:10] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "8ms",
+  "ip": "::1"
+}
+[2026-04-17 16:56:11] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 6.938 ms - -[0m
+[2026-04-17 16:56:11] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "26ms",
+  "ip": "::1"
+}
+[2026-04-17 16:56:33] INFO: [0mPOST /api/v1/auth/login [32m200[0m 324.042 ms - 286[0m
+[2026-04-17 16:56:33] INFO: POST /api/v1/auth/login
+{
+  "status": 200,
+  "duration": "324ms",
+  "ip": "::1",
+  "body": {
+    "email": "john@example.com",
+    "password": "***"
+  }
+}
+[2026-04-17 16:57:51] INFO: [0mPOST /api/v1/chat/send [32m200[0m 888.852 ms - 318[0m
+[2026-04-17 16:57:51] INFO: POST /api/v1/chat/send
+{
+  "status": 200,
+  "duration": "890ms",
+  "ip": "::1",
+  "body": {
+    "message": "joke?"
+  }
+}
+[2026-04-17 16:58:07] INFO: [0mGET /api/v1/permission/all [33m403[0m 21.603 ms - 75[0m
+[2026-04-17 16:58:07] INFO: GET /api/v1/permission/all
+{
+  "status": 403,
+  "duration": "22ms",
+  "ip": "::1"
+}
+[2026-04-17 16:58:21] INFO: [0mGET /api/v1/role/all-roles [33m403[0m 3.071 ms - 75[0m
+[2026-04-17 16:58:21] INFO: GET /api/v1/role/all-roles
+{
+  "status": 403,
+  "duration": "4ms",
+  "ip": "::1"
+}
+[2026-04-17 16:58:30] INFO: [0mGET /api/v1/userDashboard/user_dashboard [32m200[0m 31.108 ms - 919[0m
+[2026-04-17 16:58:30] INFO: GET /api/v1/userDashboard/user_dashboard
+{
+  "status": 200,
+  "duration": "33ms",
+  "ip": "::1"
+}
+[2026-04-17 16:58:45] INFO: [0mGET /api/v1/user/all-users [32m200[0m 15.784 ms - 668[0m
+[2026-04-17 16:58:45] INFO: GET /api/v1/user/all-users
+{
+  "status": 200,
+  "duration": "17ms",
+  "ip": "::1"
+}
+[2026-04-17 16:59:17] INFO: [0mGET /api/v1/user/dashboard-summary [36m304[0m 60.982 ms - -[0m
+[2026-04-17 16:59:17] INFO: GET /api/v1/user/dashboard-summary
+{
+  "status": 304,
+  "duration": "62ms",
+  "ip": "::1"
+}
+[2026-04-17 16:59:20] INFO: [0mGET /api-docs/ [36m304[0m 3.251 ms - -[0m
+[2026-04-17 16:59:20] INFO: GET /api-docs/
+{
+  "status": 304,
+  "duration": "5ms",
+  "ip": "::1"
+}
+[2026-04-17 16:59:20] INFO: [0mGET /api-docs/swagger-ui.css [36m304[0m 0.724 ms - -[0m
+[2026-04-17 16:59:20] INFO: GET /api-docs/swagger-ui.css
+{
+  "status": 304,
+  "duration": "1ms",
+  "ip": "::1"
+}
+[2026-04-17 16:59:20] INFO: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.546 ms - -[0m
+[2026-04-17 16:59:20] INFO: GET /api-docs/swagger-ui-init.js
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}
+[2026-04-17 16:59:20] INFO: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 5.803 ms - -[0m
+[2026-04-17 16:59:20] INFO: GET /api-docs/swagger-ui-bundle.js
+{
+  "status": 304,
+  "duration": "8ms",
+  "ip": "::1"
+}
+[2026-04-17 16:59:20] INFO: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 8.696 ms - -[0m
+[2026-04-17 16:59:20] INFO: GET /api-docs/swagger-ui-standalone-preset.js
+{
+  "status": 304,
+  "duration": "9ms",
+  "ip": "::1"
+}
+[2026-04-17 16:59:21] INFO: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.929 ms - -[0m
+[2026-04-17 16:59:21] INFO: GET /api-docs/favicon-32x32.png
+{
+  "status": 304,
+  "duration": "2ms",
+  "ip": "::1"
+}

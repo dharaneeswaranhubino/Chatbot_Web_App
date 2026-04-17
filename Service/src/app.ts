@@ -13,6 +13,8 @@ import cookieParser from "cookie-parser";
 import swaggerUi from "swagger-ui-express";
 import { swaggerSpec } from "./config/swagger.js";
 import "./docs/authSwagger.js";
+import "./docs/chatbotSwagger.js"
+import "./docs/userDashboardSwagger.js"
 
 const app = express();
 app.use(cors(corsOption));
