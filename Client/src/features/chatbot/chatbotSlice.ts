@@ -83,9 +83,9 @@ const chatSlice = createSlice({
       state.searchResults = [];
       state.isSearching = false;
     },
-    addMessageOptimistic: (state, action) => {
-      state.messages.push(action.payload);
-    },
+    // addMessageOptimistic: (state, action) => {
+    //   state.messages.push(action.payload);
+    // },
     streamBotMessage: (
       state,
       action: PayloadAction<{ id: number; char: string }>,
@@ -120,7 +120,7 @@ const chatSlice = createSlice({
       .addCase(sendMessage.fulfilled, (state, action) => {
         state.sending = false;
         state.messages.push(action.payload.userMessage);
-        state.messages.push({ ...action.payload.botMessage, message: "" });
+        state.messages.push({ ...action.payload.botMessage, message: "" }); //for streem bot message for typing effect
         state.total += 2;
       })
       .addCase(sendMessage.rejected, (state, action) => {
@@ -146,7 +146,7 @@ const chatSlice = createSlice({
 export const {
   clearError,
   clearSearch,
-  addMessageOptimistic,
+  // addMessageOptimistic,
   streamBotMessage,
 } = chatSlice.actions;
 export default chatSlice.reducer;

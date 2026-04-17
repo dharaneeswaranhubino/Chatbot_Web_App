@@ -73,3 +73,4 @@
 [2026-04-13 09:33:17] ERROR: Redis error: AggregateError
 [2026-04-13 09:33:19] ERROR: Redis error: AggregateError
 [2026-04-14 21:28:33] ERROR: POST /api/v1/upload/profile-picture - File too large
+[2026-04-17 15:30:26] ERROR: POST /api/v1/auth/register - User already exists

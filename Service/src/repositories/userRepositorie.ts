@@ -34,6 +34,7 @@ export class UserRepository {
     const cacheKey = `user:${id}`;
 
     const cached = await redisClient.get(cacheKey);
+    //Redis always store the string so we need to convert it into js obj to furthre access
     if (cached) {
       return JSON.parse(cached);
     }

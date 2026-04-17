@@ -85,7 +85,7 @@ const HistorySidebar = ({
           <div className="flex-1 overflow-y-auto px-4 py-4">
             {loading && groupedMessages.length === 0 ? (
               <div className="flex justify-center items-center h-32">
-                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-violet-600" />
+                <i className="fas fa-spinner fa-spin text-violet-600 text-2xl"></i>
               </div>
             ) : groupedMessages.length === 0 ? (
               <div className="text-center text-gray-400 mt-10">
@@ -112,7 +112,11 @@ const HistorySidebar = ({
                       >
                         <div className="flex items-start gap-2">
                           <span className="text-lg">
-                            {msg.sender === "user" ? <i className="fa-solid fa-user"></i> : <i className="fa-solid fa-robot"></i>}
+                            {msg.sender === "user" ? (
+                              <i className="fa-solid fa-user"></i>
+                            ) : (
+                              <i className="fa-solid fa-robot"></i>
+                            )}
                           </span>
                           <div className="flex-1 min-w-0">
                             <p className="text-sm font-medium truncate">

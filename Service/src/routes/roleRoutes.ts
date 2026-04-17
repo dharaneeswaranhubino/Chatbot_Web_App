@@ -23,7 +23,7 @@ router.get(
 );
 
 router.delete(
-  "/delete-role/:id",
+  "/  /:id",
   authMiddleware,
   permissionMiddleware("delete:role"),
   controller.deleteRole.bind(controller),
